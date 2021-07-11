@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import SlateTextEditor from './Slate/SlateTextEditor';
 import QuillTextEditor from './Quill/QuillTextEditor';
+import EditorjsTextEditor from './Editorjs/EditorjsTextEditor';
 
 const Wrapper = styled.div`
   width: 600px;
@@ -13,6 +14,9 @@ export default function App() {
     <>
       <Wrapper>
         <SlateTextEditor />
+      </Wrapper>
+      <Wrapper>
+        <EditorjsTextEditor />
       </Wrapper>
       <Wrapper>
         <QuillTextEditor />

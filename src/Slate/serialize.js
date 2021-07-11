@@ -3,7 +3,6 @@ import { Text } from 'slate';
 
 const serialize = node => {
   if (Text.isText(node)) {
-    console.log(node);
     let string = escapeHtml(node.text);
 
     if (node.bold) {
