@@ -1,8 +1,6 @@
-import { findByLabelText } from '@testing-library/react';
-
 const logoBlock = {
   id: 1,
-  type: '', // 타입을 왜 넣어야겠다고 생각했더라
+  type: '', // web, email
   tag: 'tbody',
   attrs: null,
   children: [

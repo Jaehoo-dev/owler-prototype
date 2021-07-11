@@ -1,9 +1,6 @@
 import React from 'react';
 
 export default function parseJsonToJsx(json) {
-  const attributes = { ...json.attrs };
-  const { style } = attributes;
-
   return React.createElement(
     json.tag,
     json.attrs,
